@@ -58,7 +58,7 @@ function recordTime() {
   }
 
   const form = document.getElementById('timeForm');
-  
+
   form.addEventListener('input', validateForm);
   form.addEventListener('submit', validateForm);
 
@@ -67,3 +67,7 @@ function recordTime() {
 }
 
 /* javascript */
+$(".clickme").click(function(){console.log("t6547");});
+$(".clickme").click(function(e){
+
+})

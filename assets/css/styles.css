@@ -1,25 +1,27 @@
-html{
+html {
   overflow-x: hidden;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
   background-color: black;
   color: white;
 }
-.col-8{
-  width:auto;
+
+.col-8 {
+  width: auto;
 }
+
 .info-box {
-  display:none;
+  display: none;
   box-sizing: border-box;
   padding: 30px;
   width: auto;
   height: auto;
-  margin:auto auto 40px auto;
+  margin: auto auto 40px auto;
   background: #000000;
   border-width: 0px 1px;
   border-style: solid;
@@ -27,14 +29,16 @@ body {
   border-radius: 19px;
 }
 
-pinkText{
+pinkText {
   color: #FFD0D0;
 }
-middleText{
+
+middleText {
   font-size: 17px;
   text-align: center;
 }
-largeText{
+
+largeText {
   color: #FFD0D0;
   font-size: 25px;
   text-align: center;
@@ -50,7 +54,13 @@ largeText{
   }
 }
 
-#rot-anim {
+#rot-anim1 {
+  animation: rotation 10s infinite;
+}
+#rot-anim2 {
+  animation: rotation 10s infinite;
+}
+#rot-anim3 {
   animation: rotation 10s infinite;
 }
 
